@@ -476,13 +476,13 @@ header:after {
   visibility: hidden; }
 
 .header-menu {
-  padding-bottom: 24px; }
+  padding-bottom: 0px; }
 
 .header-logo {
   text-align: center;
   border-top: 1px solid #474747;
   margin-top: 2px;
-  padding: 20px 0 19px; }
+  padding: 0px 0px; }
 
 /*-------------------- TOP PANEL --------------------*/
 .top-panel {
