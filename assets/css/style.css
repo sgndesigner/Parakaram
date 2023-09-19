@@ -98,7 +98,7 @@ body {
   position: relative; }
 
 img {
-  max-width: 8%; }
+  max-width: 100%; }
 
 a {
   color: #fff;
