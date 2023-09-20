@@ -366,7 +366,7 @@ header:after {
   .nav-list > li > a {
     font-size: 14px;
     line-height: 30px;
-    padding: 0 15px 15px; }
+    padding: 0 15px; }
 
 .nav-list {
   overflow: hidden;
