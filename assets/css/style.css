@@ -95,7 +95,12 @@ body {
     color: #8c8c8c; }
 
 .container {
-  position: relative; }
+  position: relative;
+  display: flex;
+  bottom: 20px;
+  top: 20px; 
+  padding-bottom: 50px ;  
+ }
 
 img {
   max-width: 100%; }
@@ -318,7 +323,7 @@ header {
   height: 100vh;
   left: -100%;
   opacity: 0;
-  top: 0;
+  top: 50%;
   z-index: 3;
   background-color: #202020;
   position: absolute;
@@ -361,7 +366,7 @@ header:after {
   .nav-list > li > a {
     font-size: 14px;
     line-height: 30px;
-    padding: 0 15px; }
+    padding: 0 15px 15px; }
 
 .nav-list {
   overflow: hidden;
@@ -682,7 +687,7 @@ header:after {
       width: 240px; }
 
   .header-menu {
-    padding-bottom: 18px; }
+    padding-bottom: 60px; }
 
   .nav-list > li.dropdown ul {
     margin-top: 18px; }
