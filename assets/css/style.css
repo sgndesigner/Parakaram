@@ -2628,6 +2628,7 @@ blockquote:before {
 
 /*------------------ S-TESTIMONIALS ------------------*/
 .s-testimonials {
+
   position: relative;
   padding: 140px 0;
   text-align: center;
@@ -2656,6 +2657,7 @@ blockquote:before {
   .s-testimonials .container {
     z-index: 2; }
 
+
 .testimonials-effect {
   position: absolute;
   top: 0;
@@ -2682,7 +2684,7 @@ blockquote:before {
       position: relative;
       width: 12px;
       height: 12px;
-      border-radius: 50%;
+      border-radius: 100%;
       background-color: #bebebe;
       margin-right: 8px;
       transition: .25s ease-in; }
