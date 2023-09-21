@@ -2643,6 +2643,9 @@ blockquote:before {
   background-size: cover;
   background-attachment: fixed;
   position: relative; }
+  .s-testimonials .samson{
+    padding-bottom: 10px;
+  }
   .s-testimonials.s-fitness-testimonials:after, .s-testimonials.s-fitness-testimonials:before {
     background-color: #fff; }
   .s-testimonials:after, .s-testimonials:before {
@@ -2715,7 +2718,7 @@ blockquote:before {
     width: 200px;
     height: 200px;
     object-fit: contain;
-    border-radius: 50%;
+    border-radius: 0%;
     margin: 0 auto 18px;
     display: block;
     background-size: contain; }
