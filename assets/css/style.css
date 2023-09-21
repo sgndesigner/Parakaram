@@ -428,7 +428,9 @@ header:after {
     align-items: center;
     justify-content: center;
     overflow: visible;
-    max-height: none; }
+    max-height: none; 
+    padding-top: 40px;
+  }
     .nav-list > li {
       border-right: 1px solid #474747; }
       .nav-list > li:last-child {
