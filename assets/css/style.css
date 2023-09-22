@@ -2929,8 +2929,8 @@ blockquote:before {
         color: #f23849; }
 
 .out-trainer-img {
-  flex: 0 0 50%;
-  max-width: 50%; }
+  flex: 0 0 30%;
+  max-width: 30%; }
   .out-trainer-img img {
     display: block;
     width: 100%;
@@ -2938,13 +2938,13 @@ blockquote:before {
     object-fit: cover; }
 
 .out-trainer-info {
-  flex: 0 0 100%;
-  max-width: 100%;
+  flex: 0 0 70%;
+  max-width: 70%;
   display: flex;
   flex-direction: column;
   align-items: stretch;
   justify-content: center;
-  padding: 50px; }
+  padding: 30px; }
   .out-trainer-info h3 {
     text-transform: uppercase;
     transition: .25s ease-in; }
@@ -2957,15 +2957,15 @@ blockquote:before {
     font-weight: 500; }
   .out-trainer-info p {
     color: #bebebe;
-    margin-bottom: 50px;
+    margin-bottom: 17px;
     transition: .25s ease-in; }
   .out-trainer-info .social-list li {
-    margin-right: 50px; }
+    margin-right: 48px; }
     .out-trainer-info .social-list li:last-child {
-      margin-right: 10px; }
+      margin-right: 0; }
     .out-trainer-info .social-list li a {
       transition: .25s ease-in;
-      font-size: 13px; }
+      font-size: 23px; }
 
 /*-------------------- S-CLIENTS --------------------*/
 .s-clients {
