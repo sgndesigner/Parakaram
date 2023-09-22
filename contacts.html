@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Parakaram - Contacts</title>
+	<title>Parakram - Contacts</title>
 	<!-- =================== META =================== -->
 	<meta name="keywords" content="">
 	<meta name="description" content="">
@@ -63,7 +63,7 @@
 							
 						</li>
 						<li><a href="contacts.html">Contacts</a></li>
-						<li><a href="galary.html">Gallery</a></li>
+						<li><a href="">Gallery</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -84,22 +84,22 @@
 	<!-- ============= HEADER-TITLE END ============= -->
 
 	<!-- ================== S-MAP ================== -->
-	<!-- <section class="s-map">
+	<section class="s-map">
 		<div id="map" class="cont-map google-map"></div>
-	</section> -->
+	</section>
 	<!-- ================ S-MAP END ================ -->
 
 
 	<!-- ================ S-CONTACTS ================ -->
-	<section class="s-contacts" style="background-image: url();">
+	<section class="s-contacts" style="background-image: url(assets/img/bg-contacts.svg);">
 		<div class="container">
 			<h2 class="title-decor">Contact <span>Us</span></h2>
-			<p class="slogan"></p>
+			<p class="slogan">Maecenas consequat ex id lobortis venenatis. Mauris id erat enim. Morbi dolor dolor, auctor tincidunt lorem ut, venenatis dapibus miq.</p>
 			<div class="row">
 				<div class="col-md-5 col-lg-4">
 					<div class="contact-item">
 						<div class="contact-item-left">
-							
+							<img src="assets/img/icon-1.svg" alt="img">
 							<h4>need help</h4>
 						</div>
 						<div class="contact-item-right">
@@ -111,7 +111,7 @@
 					</div>
 					<div class="contact-item">
 						<div class="contact-item-left">
-							
+							<img src="assets/img/icon-2.svg" alt="img">
 							<h4>questions</h4>
 						</div>
 						<div class="contact-item-right">
@@ -123,6 +123,7 @@
 					</div>
 					<div class="contact-item">
 						<div class="contact-item-left">
+							<img src="assets/img/icon-3.svg" alt="img">
 							<h4>address</h4>
 						</div>
 						<div class="contact-item-right">
@@ -133,7 +134,7 @@
 					</div>
 				</div>
 				<div class="col-md-7 col-lg-8">
-					<form name="submit-to-google-sheet">
+					<form id='contactform' action="https://Parakram-html.rovadex.com/assets/php/contact.php" name="contactform">
 						<ul class="form-cover">
 							<li class="inp-name">
 								<label>Name * (required)</label>
@@ -143,7 +144,6 @@
 								<label>E-mail * (required)</label>
 								<input id="email" type="email" name="your-email">
 							</li>
-
 							<li class="inp-text">
 								<label>Message * (required)</label>
 								<textarea id="comments" name="your-text"></textarea>
@@ -156,24 +156,13 @@
 							</div>
 						</div>
 						<div class="btn-form-cover">
-							<button  type="submit" class="btn">send comment</button>
+							<button id="#submit" type="submit" class="btn">send comment</button>
 						</div>
 					</form>
 					<div id="message"></div>
 				</div>
 			</div>
 		</div>
-		<script>
-			const scriptURL = 'https://script.google.com/macros/s/AKfycbwnpAcFtxfmDZazw7wjeLPTOOJUmKkFUeeCAITbE1RARqvSK1bbVI7pa_-ViFZdZzQxcQ/exec'
-			const form = document.forms['submit-to-google-sheet']
-		  
-			form.addEventListener('submit', e => {
-			  e.preventDefault()
-			  fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-				.then(response => console.log('Success!', response))
-				.catch(error => console.error('Error!', error.message))
-			})
-		  </script>
 	</section>
 	<!-- ============== S-CONTACTS-END ============== -->
 
