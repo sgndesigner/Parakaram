@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
+div,button,span,strong,h1,h2,h3,h4,a,p{font-family: 'Tektur', cursive;}
 body{
     display: flex;
     justify-content: center;

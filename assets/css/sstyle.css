@@ -20,6 +20,9 @@
 html *, body * {
   font-family: "Source Sans Pro", sans-serif;
 }
+
+div,button,span,strong,h1,h2,h3,h4,a,p{font-family: 'Tektur', cursive;}
+
 html > p, body > p {
   font-size: 0.95em;
   font-weight: bold;
