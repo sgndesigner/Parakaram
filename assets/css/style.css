@@ -119,7 +119,7 @@ img {
 }
 .jyc-logo {
   position: absolute;
-  top: 10px;
+  top: 20px;
   left: 10px;
 }
 
@@ -366,7 +366,7 @@ header:after {
 .nav-list > li {
   border: none; }
   .nav-list > li > a {
-    font-size: 14px;
+    font-size: 20px;
     line-height: 30px;
     padding: 0 15px; }
 
@@ -505,7 +505,7 @@ header:after {
   visibility: hidden; }
 
 .header-menu {
-  padding-bottom: 65px; }
+  padding-bottom: 55px; }
 
 .header-logo {
   text-align: center;
