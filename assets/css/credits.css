@@ -76,7 +76,7 @@ body{
     left: 0;
     width: 100%;
     height: 100px;
-    background: url(/photosc/wave.png);
+    background: url(../../photosc/wave.png);
     background-size: 1000px 100px;
 }
 .bottom .wave#wave1
@@ -89,19 +89,19 @@ body{
 .bottom .wave#wave2{
     z-index: 999;
     opacity: 0.5;
-    bottom: 10px;
+    bottom: 5px;
     animation: animate2 4s linear infinite;
 }
 .bottom .wave#wave3{
     z-index: 998;
     opacity: 0.2;
-    bottom: 15px;
+    bottom: 10px;
     animation: animate 3s linear infinite;
 }
 .bottom .wave#wave4{
     z-index: 999;
     opacity: 0.7;
-    bottom: 20px;
+    bottom: 15px;
     animation: animate2 3s linear infinite;
 }
 @keyframes animate{
@@ -257,4 +257,49 @@ body{
 }
 .contentBx .card .sci li a:hover{
     background: #f23849;
+}
+@media (max-width: 500px) {
+    .icon{
+        height: auto;
+        width: auto;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .icon .imgBx{
+        width: 50px;
+        height: 50px;
+    }
+    .bottom{
+        height: auto;
+        width: 100%;
+    }
+    .square{
+        width: 280px;
+        height: 280px;
+    }
+    .contentBx .card .imgBx
+    {
+        width: 100px;
+        height: 100px;
+    }
+    .contentBx .card .sci li a{
+        width: 30px;
+        height: 30px;
+    }
+}
+@media (max-width: 380px) {
+    .icon .imgBx{
+        width: 30px;
+        height: 30px;
+        gap: 0;
+    }
+    .square{
+        width: 200px;
+        height: 200px;
+    }
+    .contentBx .card .imgBx
+    {
+        width: 60px;
+        height: 60px;
+    }
 }
